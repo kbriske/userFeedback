@@ -1,5 +1,6 @@
 function initListeners() {
   console.log("ready");
+  console.log("this is another change");
 }
 
 $(document).ready(function () {
@@ -22,7 +23,7 @@ $(window).on("load", function () {
     cancelButtonText: '<i class="fa fa-thumbs-down"></i>',
     cancelButtonAriaLabel: "Thumbs down",
   });
-    // Swal.fire("Check out this modal!");
+  // Swal.fire("Check out this modal!");
   //   $(".modal").css("display", "none");
   console.log("loaded");
 });
